@@ -1,0 +1,13 @@
+guru:
+  jms:
+    user: JMS_username
+    password: JMS_password
+    url: JMS_url
+---
+spring:
+  profiles: es
+guru:
+  jms:
+    user: JMS_username es
+    password: JMS_password es
+    url: JMS_url es
